@@ -453,12 +453,21 @@ cd URL_Shorteners.py
 python -m venv venv
 source venv/bin/activate  # or venv\Scripts\activate on Windows
 pip install -r requirements.txt
+
+# Initialize the database
+python init_db.py
+# Select option 1 to create a new database with sample data
+
 # Run web version
 python app.py
+
 # Run GUI version
 python gui_app.py
+
 # Run CLI version
 python shortener.py
+
 # Deploy to Render (after pushing to GitHub)
 # Just connect your repo at https://render.com
+
 ```
