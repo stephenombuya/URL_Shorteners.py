@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>History - URL Shortener</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet">
+</head>
+<body>
+    <div class="container mt-5">
+        <h1 class="mb-4">📜 URL History</h1>
+        
+        <div class="row">
+            <div class="col-md-8">
+                <div class="card">
+                    <div class="card-header">
+                        <h5>All Shortened URLs</h5>
+                    </div>
+                    <div class="card-body">
+                        <div class="table-responsive">
+                            <table class="table">
+                                <thead>
+                                    <tr><th>Short Code</th><th>Original URL</th><th>Clicks</th><th>Created</th><th>Actions</th></tr>
+                                </thead>
+                                <tbody>
+                                    {% for url in urls %}
+                                    <tr>
+                                        <td><code>{{ url[0] }}</code></td>
+                                        <td>{{ url[1][:50] }}...</td>
+                                        <td>{{ url[3] }}</td>
+                                        <td>{{ url[2][:10] }}</td>
+                                        <td>
+                                            <a href="/analytics/{{ url[0] }}" class="btn btn-sm btn-info">Analytics</a>
+                                        </td>
+                                    </tr>
+                                    {% endfor %}
+                                </tbody>
+                            </table>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="col-md-4">
+                <div class="card">
+                    <div class="card-header">
+                        <h5>Recent Activity Log</h5>
+                    </div>
+                    <div class="card-body" style="max-height: 500px; overflow-y: auto;">
+                        <pre style="font-size: 12px;">{% for line in history %}{{ line }}{% endfor %}</pre>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
