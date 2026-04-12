@@ -1,7 +1,21 @@
-
 #  URL Shortener 
 
 A comprehensive, production-ready URL shortener with web interface, desktop GUI, analytics tracking, QR code generation, and cloud deployment support. Built with Python, Flask, and Tkinter.
+
+<div align="center">
+
+![Python Version](https://img.shields.io/badge/python-3.8+-blue.svg)
+![Flask Version](https://img.shields.io/badge/flask-2.3.2-green.svg)
+![SQLite](https://img.shields.io/badge/sqlite-3-blue.svg)
+![License](https://img.shields.io/badge/license-MIT-blue.svg)
+![Platform](https://img.shields.io/badge/platform-Windows%20%7C%20macOS%20%7C%20Linux-lightgrey)
+![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg)
+
+[![GitHub stars](https://img.shields.io/github/stars/stephenombuya/URL_Shorteners.py)](https://github.com/stephenombuya/URL_Shorteners.py/stargazers)
+[![GitHub forks](https://img.shields.io/github/forks/stephenombuya/URL_Shorteners.py)](https://github.com/stephenombuya/URL_Shorteners.py/network)
+[![GitHub issues](https://img.shields.io/github/issues/stephenombuya/URL_Shorteners.py)](https://github.com/stephenombuya/URL_Shorteners.py/issues)
+
+</div>
 
 ## Features
 ### Core Functionality
