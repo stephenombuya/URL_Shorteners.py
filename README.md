@@ -1,7 +1,8 @@
 
 #  URL Shortener 
+
 A comprehensive, production-ready URL shortener with web interface, desktop GUI, analytics tracking, QR code generation, and cloud deployment support. Built with Python, Flask, and Tkinter.
----
+
 ## Features
 ### Core Functionality
 *  Shorten long URLs using **TinyURL** or **Bitly**
@@ -182,7 +183,7 @@ GET /api/stats
 
 ----------
 
-## 📊 Analytics Features
+##  Analytics Features
 
 The analytics system tracks:
 
