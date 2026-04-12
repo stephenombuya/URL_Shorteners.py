@@ -15,6 +15,13 @@ A comprehensive, production-ready URL shortener with web interface, desktop GUI,
 [![GitHub forks](https://img.shields.io/github/forks/stephenombuya/URL_Shorteners.py)](https://github.com/stephenombuya/URL_Shorteners.py/network)
 [![GitHub issues](https://img.shields.io/github/issues/stephenombuya/URL_Shorteners.py)](https://github.com/stephenombuya/URL_Shorteners.py/issues)
 
+<!-- Repository Analytics -->
+![GitHub repo size](https://img.shields.io/github/repo-size/stephenombuya/URL_Shorteners.py)
+![GitHub language count](https://img.shields.io/github/languages/count/stephenombuya/URL_Shorteners.py)
+![GitHub top language](https://img.shields.io/github/languages/top/stephenombuya/URL_Shorteners.py)
+![GitHub last commit](https://img.shields.io/github/last-commit/stephenombuya/URL_Shorteners.py)
+![GitHub contributors](https://img.shields.io/github/contributors/stephenombuya/URL_Shorteners.py)
+
 </div>
 
 ## Features
