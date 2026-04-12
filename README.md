@@ -283,11 +283,12 @@ url_shortener/
 ├── gui_app.py            # Tkinter GUI application
 ├── shortener.py          # Core URL shortening logic (CLI)
 ├── url_shortener.py      # Enhanced core with analytics
+├── init_db.py            # Database initialization script
 ├── requirements.txt      # Project dependencies
 ├── render.yaml           # Render deployment config
-├── .env                  # Environment variables (create this)
+├── .env                  # Environment variables
 ├── history.txt           # URL history log
-├── analytics.db          # SQLite analytics database
+├── analytics.db          # SQLite analytics database (created by init_db.py)
 ├── templates/            # HTML templates for web version
 │   ├── index.html        # Main shortening interface
 │   ├── analytics.html    # Analytics dashboard
@@ -465,7 +466,7 @@ python app.py
 python gui_app.py
 
 # Run CLI version
-python shortener.py
+python url_shortener.py
 
 # Deploy to Render (after pushing to GitHub)
 # Just connect your repo at https://render.com
